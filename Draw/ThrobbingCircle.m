@@ -53,7 +53,6 @@
             direction = @"bigger";
         }
     }
-    [self setNeedsDisplay];
     [self performSelector:@selector(update) withObject:nil afterDelay:drawDelay];
 }
 
