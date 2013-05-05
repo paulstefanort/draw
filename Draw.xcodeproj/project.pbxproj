@@ -17,6 +17,7 @@
 		D424E20817335A3B0098776B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424E20717335A3B0098776B /* Default@2x.png */; };
 		D424E20A17335A3B0098776B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424E20917335A3B0098776B /* Default-568h@2x.png */; };
 		D424E21517335B120098776B /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D424E21417335B120098776B /* MainView.m */; };
+		D4400BA21736117F0077F5F9 /* ThrobbingCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4400BA11736117F0077F5F9 /* ThrobbingCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		D424E20917335A3B0098776B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D424E21317335B110098776B /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		D424E21417335B120098776B /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		D4400BA01736117F0077F5F9 /* ThrobbingCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrobbingCircle.h; sourceTree = "<group>"; };
+		D4400BA11736117F0077F5F9 /* ThrobbingCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrobbingCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D424E1FA17335A3B0098776B /* Supporting Files */,
 				D424E21317335B110098776B /* MainView.h */,
 				D424E21417335B120098776B /* MainView.m */,
+				D4400BA01736117F0077F5F9 /* ThrobbingCircle.h */,
+				D4400BA11736117F0077F5F9 /* ThrobbingCircle.m */,
 			);
 			path = Draw;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				D424E20017335A3B0098776B /* main.m in Sources */,
 				D424E20417335A3B0098776B /* AppDelegate.m in Sources */,
 				D424E21517335B120098776B /* MainView.m in Sources */,
+				D4400BA21736117F0077F5F9 /* ThrobbingCircle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
