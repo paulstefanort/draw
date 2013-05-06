@@ -17,12 +17,26 @@
     int circleInterval;
     CGFloat drawDelay;
     NSString *direction;
+    NSArray *colors;
+    UIColor *fillColor;
 }
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
+        colors = @[
+                   [UIColor redColor],
+                   [UIColor orangeColor],
+                   [UIColor yellowColor],
+                   [UIColor blueColor],
+                   [UIColor greenColor],
+                   [UIColor grayColor],
+                   ];
+        
+        uint32_t randomColor = arc4random_uniform([colors count]);
+        fillColor = [colors objectAtIndex:randomColor];
+        
         smallestCircleSize = 15;
         biggestCircleSize = 100;
         circleInterval = 2;
@@ -61,7 +75,6 @@
     [self setBackgroundColor:[UIColor clearColor]];
     
     //// Color Declarations
-    UIColor* fillColor = [UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
     UIColor* strokeColor = [UIColor colorWithRed: 0 green: 0 blue: 0 alpha: 1];
     
     //// Oval Drawing
